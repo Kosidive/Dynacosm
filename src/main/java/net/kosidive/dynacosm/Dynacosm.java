@@ -1,4 +1,4 @@
-package com.example.example_mod;
+package net.kosidive.dynacosm;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
@@ -15,4 +15,5 @@ public class Dynacosm implements ModInitializer {
 	public void onInitialize(ModContainer mod) {
 		LOGGER.info("Hello Quilt world from {}!", mod.metadata().name());
 	}
+
 }
